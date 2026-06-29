@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Octogon Strade Construct | Infrastructură, construcții și amenajări</title>
+    <meta
+      name="description"
+      content="Octogon Strade Construct execută lucrări de infrastructură rutieră, utilități, amenajări exterioare, construcții interioare, sisteme de siguranță și servicii operaționale."
+    />
+    <meta name="theme-color" content="#0a2f5f" />
+    <meta property="og:title" content="Octogon Strade Construct" />
+    <meta
+      property="og:description"
+      content="Lucrări de drumuri, platforme betonate, utilități, semnalistică, amenajări și servicii tehnice pentru proiecte publice și private."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/hero-infrastructura.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="assets/images/hero-infrastructura.png" />
+    <link rel="alternate" hreflang="ro" href="index.html" />
+    <link rel="alternate" hreflang="en" href="en.html" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <svg class="svg-defs" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="site-logo-nw" x1="86" y1="50" x2="504" y2="468" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="var(--logo-light)" />
+          <stop offset="1" stop-color="var(--logo-mid)" />
+        </linearGradient>
+        <linearGradient id="site-logo-ne" x1="412" y1="59" x2="689" y2="448" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="var(--logo-white)" />
+          <stop offset="1" stop-color="var(--logo-gray)" />
+        </linearGradient>
+        <linearGradient id="site-logo-se" x1="291" y1="368" x2="689" y2="662" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="var(--logo-mid)" />
+          <stop offset="1" stop-color="var(--logo-white)" />
+        </linearGradient>
+        <linearGradient id="site-logo-sw" x1="92" y1="385" x2="367" y2="660" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="var(--logo-gray)" />
+          <stop offset="1" stop-color="var(--logo-light)" />
+        </linearGradient>
+        <symbol id="octogon-mark-symbol" viewBox="35 0 680 692">
+          <path class="logo-piece logo-nw" d="M174.258 138.875 86.18 227.598 86.14 347.539 86.102 467.484l25.449-26.304c13.996-14.465 105.648-106.387 203.672-204.27 98.023-97.883 179.98-179.945 182.129-182.363l3.902-4.398H262.34Z" />
+          <path class="logo-piece logo-ne" d="m467.156 114.563-55.07 55.093 73.734 73.98c40.551 40.688 102.696 103.313 138.094 139.165l64.36 65.187.144-107.61c.078-59.183.227-109.004.332-110.71.164-2.731-2.242-5.598-19.984-23.798C620.027 155.871 524.211 59.461 523.266 59.465c-.575.004-25.82 24.797-56.11 55.098Z" />
+          <path class="logo-piece logo-se" d="M545.461 401.523c-32.5 32.938-65.84 66.817-123.102 125.102-76.23 77.582-89.082 90.652-109.41 111.258-12.086 12.254-21.976 22.55-21.976 22.879 0 .332 50.07.68 111.273.777l111.274.172 63.273-63.922c34.805-35.16 74.129-74.758 87.387-88 21.02-20.988 24.113-24.484 24.113-27.262 0-2.789-4.582-7.867-37.074-41.105a49535.2 49535.2 0 0 1-54.621-55.93l-17.551-18.004Z" />
+          <path class="logo-piece logo-sw" d="M164.734 417.207c-17.304 17.496-40.672 41.129-51.933 52.508L92.332 490.41 262.34 659.05l52.14-52.762 52.145-52.762-84.648-84.066c-46.555-46.234-84.899-84.066-85.211-84.066-.313-.004-14.727 14.312-32.032 31.812Z" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#acasa" aria-label="Octogon Strade Construct">
+        <svg class="brand-logo" viewBox="35 0 680 692" aria-hidden="true" focusable="false">
+          <use href="#octogon-mark-symbol"></use>
+        </svg>
+        <span class="brand-text">OCTOGON STRADE CONSTRUCT</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <i data-lucide="menu" aria-hidden="true"></i>
+        <span class="sr-only">Deschide meniul</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#expertiza">Expertiză</a>
+        <a href="#domenii">Domenii</a>
+        <a href="#abordare">Abordare</a>
+        <a href="#parteneri">Parteneri</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+        <div class="language-switch" aria-label="Selectare limbă">
+          <a class="is-active" href="index.html" aria-current="page">RO</a>
+          <a href="en.html">EN</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="acasa">
+      <section class="hero">
+        <img class="hero-image" src="assets/images/hero-infrastructura.png" alt="Șantier modern de infrastructură rutieră" />
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content page-shell">
+          <div class="hero-copy">
+            <svg class="hero-logo" viewBox="35 0 680 692" aria-hidden="true" focusable="false">
+              <use href="#octogon-mark-symbol"></use>
+            </svg>
+            <h1>Octogon Strade Construct</h1>
+            <span class="eyebrow">Infrastructură. Construcții. Mentenanță.</span>
+          </div>
+
+          <nav class="domain-nav" aria-label="Domenii principale de activitate">
+            <a href="#drumuri" aria-label="Drumuri publice și private" title="Drumuri publice și private">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-road-632523.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#sapaturi" aria-label="Săpături și evacuări pământ" title="Săpături și evacuări pământ">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-excavator-2716778.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#giratorii" aria-label="Sensuri giratorii" title="Sensuri giratorii">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-roundabout-7830723.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#canalizari" aria-label="Canalizări și subtraversări" title="Canalizări și subtraversări">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-waste-water-2514480.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#apa" aria-label="Rețele de apă" title="Rețele de apă">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-water-pipe-4524481.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#spatii-verzi" aria-label="Spații verzi" title="Spații verzi">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-nature-2823511.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#agregate" aria-label="Agregate și materiale" title="Agregate și materiale">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-stones-8819002.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#marcaje" aria-label="Semnalistică și marcaje rutiere" title="Semnalistică și marcaje rutiere">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-cone-481255.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#interioare" aria-label="Construcții și amenajări interioare" title="Construcții și amenajări interioare">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-interior-design-4635381.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#imprejmuiri" aria-label="Garduri, balustrade și împrejmuiri" title="Garduri, balustrade și împrejmuiri">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-fence-13974297.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#siguranta" aria-label="Sisteme anti-incendiu și alarmare" title="Sisteme anti-incendiu și alarmare">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-fire-alarm-10107660.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#deszapezire" aria-label="Servicii de deszăpezire" title="Servicii de deszăpezire">
+              <img class="domain-symbol domain-image" src="assets/icons/flaticon-icy-5013351.png" alt="" aria-hidden="true" />
+            </a>
+          </nav>
+
+          <a class="hero-more" href="#domenii" aria-label="Află mai multe despre domeniile noastre">
+            <span>Află mai multe</span>
+            <i data-lucide="arrow-down" aria-hidden="true"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="intro-section" id="expertiza">
+        <div class="page-shell intro-grid">
+          <div>
+            <span class="section-kicker">Profil</span>
+            <h2>Execuție integrată pentru lucrări de infrastructură, utilități și amenajări.</h2>
+          </div>
+          <p>
+            Octogon Strade Construct reunește echipe, utilaje și resurse pentru intervenții coordonate
+            pe șantier: drumuri, platforme, rețele tehnice, lucrări exterioare, marcaje, împrejmuiri,
+            sisteme de siguranță și servicii sezoniere.
+          </p>
+        </div>
+      </section>
+
+      <section class="capabilities" id="domenii">
+        <div class="page-shell">
+          <div class="section-heading">
+            <span class="section-kicker">Domenii</span>
+            <h2>Domenii de execuție pentru infrastructură, utilități și amenajări.</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card" id="drumuri">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-road-632523.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Drumuri publice și private</h3>
+                <p>Construcție, reabilitare și reparații pentru drumuri, căi de acces și zone carosabile. Lucrăm pe proiecte publice și private, cu atenție la pregătirea terenului, organizarea etapelor și integrarea lucrărilor conexe.</p>
+                <ul>
+                  <li>Lucrări pentru trafic public și privat</li>
+                  <li>Pregătire teren și straturi suport</li>
+                  <li>Execuție coordonată cu lucrări conexe</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/drumuri.jpg" alt="Drumuri publice și private" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="sapaturi">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-excavator-2716778.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Săpături și evacuări pământ</h3>
+                <p>Lucrări de săpătură, manipulare și evacuare pământ pentru pregătirea șantierului. Intervenim pentru fundații, trasee tehnice, platforme și zone care trebuie aduse la cotă sau eliberate rapid.</p>
+                <ul>
+                  <li>Săpături pentru fundații și utilități</li>
+                  <li>Evacuare și transport pământ</li>
+                  <li>Pregătire pentru etapele următoare</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/sapaturi.jpg" alt="Săpături și evacuări pământ" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="giratorii">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-roundabout-7830723.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Sensuri giratorii și platforme</h3>
+                <p>Construire și amenajare sensuri giratorii, platforme betonate și plăci de beton. Ne ocupăm de zonele de circulație, acces și operare unde geometria, rezistența și finisajul trebuie coordonate corect.</p>
+                <ul>
+                  <li>Amenajare zone de circulație</li>
+                  <li>Platforme pentru acces, parcare și operare</li>
+                  <li>Turnare plăci de beton</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/giratorii.jpg" alt="Sensuri giratorii și platforme" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="canalizari">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-waste-water-2514480.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Canalizări și subtraversări</h3>
+                <p>Execuție canalizări, șanțuri și subtraversări integrate în lucrări de infrastructură. Planificăm traseele astfel încât utilitățile, drenajul și lucrările rutiere să funcționeze împreună.</p>
+                <ul>
+                  <li>Rețele de canalizare</li>
+                  <li>Subtraversări pentru drumuri și platforme</li>
+                  <li>Șanțuri și lucrări de drenaj</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/canalizari.jpg" alt="Canalizări și subtraversări" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="apa">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-water-pipe-4524481.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Rețele de apă</h3>
+                <p>Lucrări pentru infrastructura de apă și conectarea proiectelor la utilități. Executăm trasee tehnice, racorduri și intervenții compatibile cu lucrările de drum, platformă sau amenajare exterioară.</p>
+                <ul>
+                  <li>Rețele de apă</li>
+                  <li>Subtraversări și trasee tehnice</li>
+                  <li>Integrare cu traseele de șantier</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/retele-apa.jpg" alt="Rețele de apă" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="spatii-verzi">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-nature-2823511.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Spații verzi și parcuri</h3>
+                <p>Amenajare și întreținere spații verzi, parcuri și zone exterioare de utilizare publică sau privată. Combinăm lucrările de teren cu finisaje, zone pietonale și întreținere sezonieră.</p>
+                <ul>
+                  <li>Amenajare spații verzi</li>
+                  <li>Întreținere zone plantate</li>
+                  <li>Amenajare parcuri și zone pietonale</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/spatii-verzi.jpg" alt="Spații verzi și parcuri" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="agregate">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-stones-8819002.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Agregate și materiale</h3>
+                <p>Furnizare agregate și materiale pentru lucrări de infrastructură și amenajări. Asigurăm materiale potrivite pentru pregătirea terenului, completări, straturi suport și lucrări exterioare.</p>
+                <ul>
+                  <li>Piatră concasată</li>
+                  <li>Pământ vegetal</li>
+                  <li>Agregate pentru șantier</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/agregate.jpg" alt="Agregate și materiale" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="marcaje">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-cone-481255.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Semnalistică, marcaje și acces</h3>
+                <p>Soluții pentru organizarea circulației, delimitări, control acces și siguranța zonelor operaționale. Realizăm marcaje, treceri pietonale, bariere și sisteme automatizate pentru fluxuri clare.</p>
+                <ul>
+                  <li>Marcaje rutiere și treceri de pietoni</li>
+                  <li>Bariere și sisteme automatizate</li>
+                  <li>Semnalistică rutieră și de șantier</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/marcaje-v4.jpg" alt="Semnalistică, marcaje și acces" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="interioare">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-interior-design-4635381.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Construcții interioare</h3>
+                <p>Lucrări de amenajare, renovare și finisare pentru spații industriale, comerciale sau rezidențiale. Acoperim demolări, compartimentări, pardoseli tehnice și finisaje adaptate utilizării spațiului.</p>
+                <ul>
+                  <li>Demolări și compartimentări</li>
+                  <li>Pardoseli epoxidice, poliuretanice, gresie, marmură și parchet</li>
+                  <li>Pereți rigips și plăci de beton</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/interioare.jpg" alt="Construcții interioare" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="imprejmuiri">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-fence-13974297.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Garduri, balustrade și împrejmuiri</h3>
+                <p>Lucrări pentru delimitări exterioare, balustrade și elemente metalice realizate la comandă. Executăm soluții pentru protecție, acces, delimitare și completarea zonelor construite.</p>
+                <ul>
+                  <li>Garduri, balustrade și împrejmuiri</li>
+                  <li>Elemente metalice personalizate</li>
+                  <li>Reparații și completări pentru delimitări existente</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/imprejmuiri-v2.jpg" alt="Garduri, balustrade și împrejmuiri" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="siguranta">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-fire-alarm-10107660.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Sisteme anti-incendiu și alarmare</h3>
+                <p>Sisteme tehnice pentru siguranță, monitorizare și control operațional. Integrăm soluții anti-incendiu, alarmare, supraveghere video și semnalizare pentru clădiri și zone operaționale.</p>
+                <ul>
+                  <li>Sisteme anti-incendiu și alarmare</li>
+                  <li>Supraveghere video</li>
+                  <li>Sisteme de control și semnalizare</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/firesystem.jpg" alt="Sisteme anti-incendiu și alarmare" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+
+            <article class="service-card" id="deszapezire">
+              <div class="service-content">
+                <div class="icon-box">
+                  <img class="service-icon domain-image" src="assets/icons/flaticon-icy-5013351.png" alt="" aria-hidden="true" />
+                </div>
+                <h3>Deszăpezire</h3>
+                <p>Servicii de deszăpezire și intervenții sezoniere pentru perioada iernii. Asigurăm suport pentru drumuri private, platforme, căi de acces și zone unde continuitatea operării este importantă.</p>
+                <ul>
+                  <li>Intervenții pentru acces și circulație</li>
+                  <li>Servicii operaționale sezoniere</li>
+                  <li>Suport pentru platforme și drumuri private</li>
+                </ul>
+              </div>
+              <figure class="service-media">
+                <img src="assets/images/domenii/snow.jpg" alt="Deszăpezire" loading="lazy" onerror="this.closest('.service-media').hidden = true" />
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="materials-band">
+        <div class="page-shell materials-grid">
+          <div>
+            <span class="section-kicker">Agregate</span>
+            <h2>Furnizare materiale pentru șantier și amenajări.</h2>
+          </div>
+          <ul class="material-list" aria-label="Materiale furnizate">
+            <li>Nisip</li>
+            <li>Pietriș</li>
+            <li>Piatră concasată</li>
+            <li>Balast</li>
+            <li>Sorturi de agregate</li>
+            <li>Criblură</li>
+            <li>Pământ vegetal</li>
+            <li>Materiale pentru umpluturi și terasamente</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="approach" id="abordare">
+        <div class="page-shell approach-grid">
+          <div class="section-heading sticky-heading">
+            <span class="section-kicker">Abordare</span>
+            <h2>Execuție coordonată, comunicare directă și control tehnic.</h2>
+            <p>
+              Pentru fiecare lucrare, prioritatea este aceeași: plan clar, echipe pregătite,
+              materiale potrivite și un șantier ținut sub control.
+            </p>
+          </div>
+
+          <div class="steps">
+            <article>
+              <span>01</span>
+              <h3>Evaluare tehnică</h3>
+              <p>Analizăm terenul, accesul, volumele de lucru, dependențele și condițiile de execuție.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Planificare de șantier</h3>
+              <p>Stabilim etapele, resursele, materialele și ordinea intervențiilor pentru reducerea blocajelor.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Execuție și verificare</h3>
+              <p>Urmărim calitatea lucrărilor, siguranța în șantier și respectarea termenelor agreate.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Predare și suport</h3>
+              <p>Finalizăm lucrarea cu documentarea necesară și rămânem disponibili pentru intervenții ulterioare.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="partners" id="parteneri">
+        <div class="page-shell partners-grid">
+          <div>
+            <span class="section-kicker">Parteneri</span>
+            <h2>Colaborăm cu dezvoltatori de top<br />și constructori activi în proiecte complexe.</h2>
+          </div>
+          <div class="partner-groups">
+            <div class="partner-group">
+              <h3>Parteneri</h3>
+              <div class="partner-list partner-list-primary" aria-label="Parteneri principali">
+                <a class="partner-logo" href="https://www.impactsa.ro/" target="_blank" rel="noreferrer" aria-label="Impact">
+                  <img src="assets/images/impact-logo.png" alt="Impact" />
+                </a>
+                <a class="partner-logo" href="https://rcti.ro/" target="_blank" rel="noreferrer" aria-label="RCTI">
+                  <img src="assets/images/rcti-logo.png" alt="RCTI" />
+                </a>
+                <a class="partner-logo" href="https://doraly.ro" target="_blank" rel="noreferrer" aria-label="Doraly">
+                  <img src="assets/images/doraly-logo.png" alt="Doraly" />
+                </a>
+              </div>
+              <div class="partner-list partner-list-secondary" aria-label="Parteneri">
+                <a class="partner-logo" href="https://luxuria-residence.ro" target="_blank" rel="noreferrer" aria-label="Luxuria">
+                  <img src="assets/images/luxuria-logo.png" alt="Luxuria" />
+                </a>
+                <a class="partner-logo" href="https://ariaverdi.ro" target="_blank" rel="noreferrer" aria-label="Aria Verdi">
+                  <img src="assets/images/aria-verdi-logo.png" alt="Aria Verdi" />
+                </a>
+              </div>
+            </div>
+
+            <div class="partner-group">
+              <h3>Furnizori de încredere</h3>
+              <div class="partner-list partner-list-suppliers" aria-label="Furnizori de încredere">
+                <div class="partner-logo partner-logo-plate" aria-label="Bosch">
+                  <img src="assets/images/bosch-logo.png" alt="Bosch" />
+                </div>
+                <div class="partner-logo" aria-label="FAAC">
+                  <img src="assets/images/FAAC-logo.png" alt="FAAC" />
+                </div>
+                <div class="partner-logo partner-logo-plate partner-logo-flowcrete" aria-label="Flowcrete">
+                  <img src="assets/images/flowcrete-logo.svg" alt="Flowcrete" />
+                </div>
+                <div class="partner-logo" aria-label="Holcim">
+                  <img src="assets/images/holcim-logo.png" alt="Holcim" />
+                </div>
+                <div class="partner-logo" aria-label="Knauf">
+                  <img src="assets/images/knauf-logo.png" alt="Knauf" />
+                </div>
+                <div class="partner-logo" aria-label="Mapei">
+                  <img src="assets/images/mapei-logo.jpg" alt="Mapei" />
+                </div>
+                <div class="partner-logo" aria-label="Saint-Gobain">
+                  <img src="assets/images/saintgobain-logo.svg" alt="Saint-Gobain" />
+                </div>
+                <div class="partner-logo" aria-label="Schneider">
+                  <img src="assets/images/schneider-logo.png" alt="Schneider" />
+                </div>
+                <div class="partner-logo" aria-label="Semmelrock">
+                  <img src="assets/images/semmelrock-logo.webp" alt="Semmelrock" />
+                </div>
+                <div class="partner-logo" aria-label="Sika">
+                  <img src="assets/images/sika-logo.png" alt="Sika" />
+                </div>
+                <div class="partner-logo" aria-label="Strabag">
+                  <img src="assets/images/strabag-logo.png" alt="Strabag" />
+                </div>
+                <div class="partner-logo" aria-label="Vesta">
+                  <img src="assets/images/vesta-logo.png" alt="Vesta" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="page-shell contact-grid">
+          <div class="contact-copy">
+            <span class="section-kicker">Contact</span>
+            <h2>Contactează-ne direct.</h2>
+            <p>Ne poți suna sau scrie pentru o viitoare colaborare.</p>
+          </div>
+
+          <div class="contact-details">
+            <a href="tel:+40744578817">
+              <img class="contact-icon" src="assets/icons/flaticon-phone-call-3059408.png" alt="" aria-hidden="true" />
+              <span>Telefon</span>
+              <strong>+40 744 578 817</strong>
+            </a>
+            <a href="mailto:octogonstrade@yahoo.com">
+              <img class="contact-icon" src="assets/icons/flaticon-mail-646094.png" alt="" aria-hidden="true" />
+              <span>Email</span>
+              <strong>octogonstrade@yahoo.com</strong>
+            </a>
+            <div>
+              <img class="contact-icon" src="assets/icons/flaticon-location-535239.png" alt="" aria-hidden="true" />
+              <span>Adresă</span>
+              <strong>Drumul Pădurea Neagră nr. 1-17, Sector 1, București, România</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-grid">
+        <a class="brand footer-brand" href="#acasa" aria-label="Octogon Strade Construct">
+          <svg class="brand-logo" viewBox="35 0 680 692" aria-hidden="true" focusable="false">
+            <use href="#octogon-mark-symbol"></use>
+          </svg>
+          <span class="brand-text">OCTOGON STRADE CONSTRUCT</span>
+        </a>
+        <small class="footer-copy">&copy; 2026 OCTOGON STRADE CONSTRUCT SRL</small>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

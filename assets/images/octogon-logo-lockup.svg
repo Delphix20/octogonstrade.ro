@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" role="img" aria-labelledby="title desc">
+  <title id="title">Octogon Strade Construct logo lockup</title>
+  <desc id="desc">Editable Octogon Strade Construct logo with mark and wordmark.</desc>
+  <style>
+    :root {
+      --logo-primary: #1f6fd2;
+      --logo-primary-dark: #071c38;
+      --logo-secondary: #0b3f83;
+      --logo-secondary-dark: #041326;
+      --logo-accent: #8fc0ff;
+      --wordmark-color: #071c38;
+      --subline-color: #5b6675;
+      --mark-x: 0px;
+      --mark-y: 0px;
+      --wordmark-x: 0px;
+      --wordmark-y: 0px;
+    }
+
+    .piece {
+      stroke: rgba(255, 255, 255, 0.08);
+      stroke-width: 2;
+      stroke-linejoin: round;
+    }
+
+    .nw { fill: url(#grad-nw); }
+    .ne { fill: url(#grad-ne); }
+    .se { fill: url(#grad-se); }
+    .sw { fill: url(#grad-sw); }
+
+    .mark-shell {
+      transform: translate(var(--mark-x), var(--mark-y));
+    }
+
+    .wordmark {
+      transform: translate(calc(300px + var(--wordmark-x)), calc(102px + var(--wordmark-y)));
+      font-family: Manrope, Inter, Arial, sans-serif;
+    }
+
+    .name {
+      fill: var(--wordmark-color);
+      font-size: 58px;
+      font-weight: 300;
+      letter-spacing: 0;
+    }
+
+    .descriptor {
+      fill: var(--subline-color);
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+  </style>
+  <defs>
+    <linearGradient id="grad-nw" x1="86" y1="50" x2="504" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="var(--logo-primary)" />
+      <stop offset="1" stop-color="var(--logo-primary-dark)" />
+    </linearGradient>
+    <linearGradient id="grad-ne" x1="412" y1="59" x2="689" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="var(--logo-secondary)" />
+      <stop offset="1" stop-color="var(--logo-secondary-dark)" />
+    </linearGradient>
+    <linearGradient id="grad-se" x1="291" y1="368" x2="689" y2="662" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="var(--logo-primary)" />
+      <stop offset="1" stop-color="var(--logo-secondary-dark)" />
+    </linearGradient>
+    <linearGradient id="grad-sw" x1="92" y1="385" x2="367" y2="660" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="var(--logo-secondary)" />
+      <stop offset="1" stop-color="var(--logo-primary-dark)" />
+    </linearGradient>
+  </defs>
+
+  <svg class="mark-shell" x="28" y="38" width="220" height="220" viewBox="35 0 680 692">
+    <path class="piece nw" d="M174.258 138.875 86.18 227.598 86.14 347.539 86.102 467.484l25.449-26.304c13.996-14.465 105.648-106.387 203.672-204.27 98.023-97.883 179.98-179.945 182.129-182.363l3.902-4.398H262.34Z" />
+    <path class="piece ne" d="m467.156 114.563-55.07 55.093 73.734 73.98c40.551 40.688 102.696 103.313 138.094 139.165l64.36 65.187.144-107.61c.078-59.183.227-109.004.332-110.71.164-2.731-2.242-5.598-19.984-23.798C620.027 155.871 524.211 59.461 523.266 59.465c-.575.004-25.82 24.797-56.11 55.098Z" />
+    <path class="piece se" d="M545.461 401.523c-32.5 32.938-65.84 66.817-123.102 125.102-76.23 77.582-89.082 90.652-109.41 111.258-12.086 12.254-21.976 22.55-21.976 22.879 0 .332 50.07.68 111.273.777l111.274.172 63.273-63.922c34.805-35.16 74.129-74.758 87.387-88 21.02-20.988 24.113-24.484 24.113-27.262 0-2.789-4.582-7.867-37.074-41.105a49535.2 49535.2 0 0 1-54.621-55.93l-17.551-18.004Z" />
+    <path class="piece sw" d="M164.734 417.207c-17.304 17.496-40.672 41.129-51.933 52.508L92.332 490.41 262.34 659.05l52.14-52.762 52.145-52.762-84.648-84.066c-46.555-46.234-84.899-84.066-85.211-84.066-.313-.004-14.727 14.312-32.032 31.812Z" />
+  </svg>
+
+  <g class="wordmark">
+    <text class="name" x="0" y="0">Octogon Strade</text>
+    <text class="name" x="0" y="62">Construct</text>
+    <text class="descriptor" x="2" y="112">Infrastructura / Constructii / Mentenanta</text>
+  </g>
+</svg>
