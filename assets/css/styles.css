@@ -177,6 +177,22 @@ textarea {
   white-space: nowrap;
 }
 
+.site-header .brand-text {
+  opacity: 0;
+  transform: translateX(-6px);
+  pointer-events: none;
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.site-header.is-scrolled .brand-text,
+.site-header.nav-active .brand-text {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
