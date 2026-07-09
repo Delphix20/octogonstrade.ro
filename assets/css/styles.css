@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Arteon";
+  src: url("../../arteon-font/Arteon-m2vP2.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --ink: #f4f8ff;
   --muted: #a9b7c9;
@@ -375,6 +383,11 @@ h1 {
   font-weight: 300;
   line-height: 0.98;
   letter-spacing: 0;
+}
+
+.hero-title {
+  font-family: "Arteon", Manrope, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
 }
 
 h2 {
