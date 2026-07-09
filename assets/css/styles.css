@@ -387,7 +387,12 @@ h1 {
 
 .hero-title {
   font-family: "Arteon", Manrope, ui-sans-serif, system-ui, sans-serif;
-  font-weight: 400;
+  max-width: min(100%, 980px);
+  font-size: clamp(1.22rem, 5.3vw, 3rem);
+  font-weight: 300;
+  color: rgba(244, 248, 255, 0.92);
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
 }
 
 h2 {
