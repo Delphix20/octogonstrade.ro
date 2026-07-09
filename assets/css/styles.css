@@ -390,7 +390,7 @@ h1 {
   width: 100%;
   max-width: 980px;
   margin-inline: auto;
-  font-size: clamp(0.92rem, 3.98vw, 2.25rem);
+  font-size: clamp(0.92rem, 3.98vw, 2.03rem);
   font-weight: 300;
   text-align: center;
   color: rgba(244, 248, 255, 0.92);
@@ -1201,6 +1201,10 @@ p {
 
   h1 {
     font-size: clamp(1.56rem, 7.1vw, 2.2rem);
+  }
+
+  .hero .eyebrow {
+    font-size: 0.585rem;
   }
 
   .hero-logo {
