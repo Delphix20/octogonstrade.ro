@@ -389,8 +389,10 @@ h1 {
   font-family: "Arteon", Manrope, ui-sans-serif, system-ui, sans-serif;
   width: 100%;
   max-width: 980px;
-  font-size: clamp(1.22rem, 5.3vw, 3rem);
+  margin-inline: auto;
+  font-size: clamp(0.92rem, 3.98vw, 2.25rem);
   font-weight: 300;
+  text-align: center;
   color: rgba(244, 248, 255, 0.92);
   white-space: nowrap;
   -webkit-font-smoothing: antialiased;
